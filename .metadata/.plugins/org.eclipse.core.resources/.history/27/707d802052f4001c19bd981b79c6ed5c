@@ -1,0 +1,11 @@
+package InterviewQuestions;
+
+public class StringTest {
+
+	public static void main(String[] args) {
+
+		String s = 30 + 40 + "Joseph" + 30 + 40;
+		System.out.println("Op is--->" + s);
+	}
+
+}

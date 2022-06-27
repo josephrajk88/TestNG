@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="6" time="0.37">
+    <testcase classname="HooksDemoWithFlipkart" name="Registration" time="0.071">
+        <system-out><![CDATA[Given the user launces the url "https://www.flipkart.com/"..................passed
+Given the user performing the registration..................................passed
+Then Done...................................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="HooksDemoWithFlipkart" name="Login" time="0.008">
+        <system-out><![CDATA[Given the user launces the url "https://www.flipkart.com/"..................passed
+Given the user enter the login..............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="HooksDemoWithFlipkart" name="Search the product" time="0.006">
+        <system-out><![CDATA[Given the user launces the url "https://www.flipkart.com/"..................passed
+Given the user search the product...........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="HooksDemoWithFlipkart" name="Add to cart" time="0.004">
+        <system-out><![CDATA[Given the user launces the url "https://www.flipkart.com/"..................passed
+Given the user add to card for the selected product.........................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="HooksDemoWithFlipkart" name="Shipment Check" time="0.005">
+        <system-out><![CDATA[Given the user launces the url "https://www.flipkart.com/"..................passed
+Given the user checks the shipment address..................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="HooksDemoWithFlipkart" name="Payment" time="0.003">
+        <system-out><![CDATA[Given the user launces the url "https://www.flipkart.com/"..................passed
+Given the user pay the payment..............................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

@@ -1,0 +1,56 @@
+package MyPackage;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+
+public class GoogleSearchSelenium {
+	
+	WebDriver driver = null;
+	
+	@Given("The user launches the url {string}")
+	public void the_user_launches_the_url(String url) {
+
+		System.setProperty("webdriver.chrome.driver", "./Drivers/chromedriver.exe");
+		driver = new ChromeDriver();
+		driver.get(url);
+		driver.manage().window().maximize();
+	  
+	}
+
+	@When("The user search the {string}")
+	public void the_user_search_the(String string) {
+		driver.findElement(By.id("q")).sendKeys("Selenium"+Keys.ENTER);
+	    
+	}
+
+	@When("The user check the numbers of links")
+	public void the_user_check_the_numbers_of_links() {
+	    
+	}
+
+	@When("The user click the last link")
+	public void the_user_click_the_last_link() {
+	  
+	}
+
+	@Then("The user verifies the homepage title")
+	public void the_user_verifies_the_homepage_title() {
+		
+		String actualTitle = "Amazon";
+		if (actualTitle == expectedTitle) {
+			System.out.println("Pass");
+
+		} else {
+			System.out.println("Fail");
+		}
+	  
+	}
+
+
+}

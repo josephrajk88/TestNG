@@ -1,0 +1,23 @@
+package MyPackage2;
+
+import org.junit.runner.RunWith;
+
+import io.cucumber.junit.Cucumber;
+import io.cucumber.junit.CucumberOptions;
+
+@RunWith(Cucumber.class)
+@CucumberOptions
+
+(features = "./src/test/resources/FeatureFiles/DataTableOrangeHRM.feature", 
+glue = "MyPackage2", 
+dryRun = true, 
+monochrome = true,
+plugin={"html:htmlop/op.html","json:jsonop/op.json","junit:junitop/op.xml"},
+tags="@DataTableOrangeHRM",
+publish=true
+
+)
+
+public class RunnerOrangeHRM {
+
+}

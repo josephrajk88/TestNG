@@ -1,0 +1,43 @@
+package MyPackage;
+
+import io.cucumber.java.en.Given;
+
+public class HooksFlipkart {
+	
+	@Given("the user launces the url {string}")
+	public void the_user_launces_the_url(String string) {
+	 
+	}
+
+	@Given("the user performing the registration")
+	public void the_user_performing_the_registration() {
+	   
+	}
+
+	@Given("the user enter the login")
+	public void the_user_enter_the_login() {
+	   
+	}
+
+	@Given("the user search the product")
+	public void the_user_search_the_product() {
+	  
+	}
+
+	@Given("the user add to card for the selected product")
+	public void the_user_add_to_card_for_the_selected_product() {
+	   
+	}
+
+	@Given("the user checks the shipment address")
+	public void the_user_checks_the_shipment_address() {
+	   
+	}
+
+	@Given("the user pay the payment")
+	public void the_user_pay_the_payment() {
+	  
+	}
+
+
+}

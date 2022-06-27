@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.testng.eclipse.launchconfig">
+    <stringAttribute key="org.eclipse.jdt.launching.CLASSPATH_PROVIDER" value="org.eclipse.m2e.launchconfig.classpathProvider"/>
+    <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="org.testng.remote.RemoteTestNG"/>
+    <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="com.TestNG"/>
+    <stringAttribute key="org.eclipse.jdt.launching.SOURCE_PATH_PROVIDER" value="org.eclipse.m2e.launchconfig.sourcepathProvider"/>
+    <mapAttribute key="org.testng.eclipse.ALL_CLASS_METHODS">
+        <mapEntry key="com.TestNG.Annotations" value="Test2;BeforeMethod;afterTest;afterClass;afterSuite;Test1;afterMethod;beforeClass;beforeSuite;beforeTest"/>
+        <mapEntry key="com.TestNG.GroupsFacebookLogin" value="WebLogin;MobileLogin"/>
+        <mapEntry key="com.TestNG.GroupsNetBanking" value="WebLoginBanking;MobileLoginBanking"/>
+        <mapEntry key="com.TestNG.PriorityDemo" value="a_method;d_method;e_method;b_method;c_method"/>
+        <mapEntry key="com.TestNG.launchBrowser" value="verifyhomePage;verifyURL;launchBrowser;closeBrowser"/>
+    </mapAttribute>
+    <listAttribute key="org.testng.eclipse.CLASS_TEST_LIST">
+        <listEntry value="com.TestNG.PriorityDemo"/>
+        <listEntry value="com.TestNG.GroupsFacebookLogin"/>
+        <listEntry value="com.TestNG.GroupsNetBanking"/>
+        <listEntry value="com.TestNG.launchBrowser"/>
+        <listEntry value="com.TestNG.Annotations"/>
+    </listAttribute>
+    <listAttribute key="org.testng.eclipse.METHOD_TEST_LIST"/>
+    <listAttribute key="org.testng.eclipse.PACKAGE_TEST_LIST"/>
+    <stringAttribute key="org.testng.eclipse.PRE_DEFINED_LISTENERS" value=""/>
+    <intAttribute key="org.testng.eclipse.TYPE" value="1"/>
+</launchConfiguration>

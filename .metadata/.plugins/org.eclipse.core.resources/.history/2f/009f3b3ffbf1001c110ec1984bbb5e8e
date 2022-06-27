@@ -1,0 +1,10 @@
+@GoogleSearchSelenium
+
+Feature:
+Scenario:
+
+Given The user launches the url ""
+When The user search the "Selenium"
+And The user check the numbers of links
+And The user click the last link
+Then The user verifies the homepage title

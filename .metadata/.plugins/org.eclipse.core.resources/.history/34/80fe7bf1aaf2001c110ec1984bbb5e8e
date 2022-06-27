@@ -1,0 +1,16 @@
+package MyPackage;
+
+import java.util.Date;
+
+public class HooksClass {
+	
+	public void startDate()
+	{
+		System.out.println("Start Date--"+new Date());
+	}
+	public void endDate()
+	{
+		System.out.println("End date--"+"new Date());
+	}
+
+}

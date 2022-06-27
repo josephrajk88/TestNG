@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<groups>
+		<run>
+			<include name="SmokeTesting"></include>
+		</run>
+	</groups>
+	<test name="FacebookLogin">
+		<classes>
+			<class name="com.TestNG.GroupsFacebookLogin" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="NetBanking">
+		<classes>
+			<class name="com.TestNG.GroupsNetBanking" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

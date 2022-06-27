@@ -1,0 +1,17 @@
+package MyPackage;
+
+import org.junit.runner.RunWith;
+
+import io.cucumber.junit.Cucumber;
+import io.cucumber.junit.CucumberOptions;
+
+@RunWith(Cucumber.class)
+@CucumberOptions(features = { "./src/test/resources/FeatureFiles/DataTableOrangeHRM.feature" }, glue = {
+		"MyPackage" }, dryRun = true, monochrome = true,publish=true,
+				tags="@DataTableOrangeHRM"
+
+)
+
+public class MyRunner {
+
+}

@@ -1,0 +1,24 @@
+// The @before & @After methods will run based ion ASCII code format
+// We can set the order also for methods
+package MyPackage;
+
+import java.util.Date;
+
+import io.cucumber.java.After;
+import io.cucumber.java.Before;
+
+public class HooksClass {
+	
+	@Before
+	public void startDate()
+	{
+		System.out.println("Start Date--"+new Date());
+	}
+	
+	@After
+	public void endDate()
+	{
+		System.out.println("End date--"+new Date());
+	}
+
+}
